@@ -28,4 +28,8 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: todo_production
+  pool: 5
+  username: postgres
+  password: ikongbeh28
+  timeout: 5000
